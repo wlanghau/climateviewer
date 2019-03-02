@@ -390,6 +390,11 @@ viewer.timeline.zoomTo(startTime, endTime);
 
 var activeLayers = {};
 var infoBox = $('.cesium-infoBox');
+
+// $('.cesium-infoBox-iframe').attr('sandbox', 'allow-same-origin allow-scripts allow-popups allow-forms'); 
+
+viewer.infoBox.frame.removeAttribute('sandbox');
+
 var layerEnabled = {}; // whether the label is in some way enabled
 var me = new Self();
 

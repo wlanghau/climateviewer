@@ -966,5 +966,19 @@ var layers = {
                 "N": "Bing Maps Roads"
             }
         ]
+    },
+    "WBL": {
+        "N": "Base WBL",
+        "icon": "fa-globe",
+        "id":"wbl",
+        ">": [
+				{
+                    "I": "wbl-test",
+                    "T": "kml",
+                    "G": "/dist/layers/anwr.kml",
+                    "S": "Ben Test",
+                    "N": "Ben ANWR KML"
+                }
+        ]
     }
 };
